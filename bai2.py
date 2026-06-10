@@ -1,44 +1,8 @@
 """
 1. Giải thích lỗi IndexError: tuple index out of range
-Dữ liệu:
-
-    ("Levi", 120, 2500)
-    ("SofM", 150)
-
-Đối với Levi:
-- Tuple có 3 phần tử.
-- Các vị trí:
-    p[0] = "Levi"
-    p[1] = 120
-    p[2] = 2500
-
-=> Dòng:
-    r = p[2]
-
-truy cập hợp lệ nên chương trình chạy bình thường.
-
---------------------------------------------------
-
-Đối với SofM:
-
-    ("SofM", 150)
-
-Tuple chỉ có 2 phần tử:
-
-    p[0] = "SofM"
-    p[1] = 150
-
-Khi chương trình thực hiện:
-
-    r = p[2]
-
 Python cố truy cập phần tử thứ 3 nhưng không tồn tại.
-
 Do đó phát sinh lỗi:
-
     IndexError: tuple index out of range
-
-Ý nghĩa:
 - Index = vị trí phần tử.
 - Out of range = vượt quá phạm vi cho phép.
 
